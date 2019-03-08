@@ -1,0 +1,60 @@
+{
+    "____comment": "This file was generated with eosio-abigen. DO NOT EDIT Fri Mar  8 09:02:57 2019",
+    "version": "eosio::abi/1.1",
+    "structs": [
+        {
+            "name": "clean",
+            "base": "",
+            "fields": []
+        },
+        {
+            "name": "sign",
+            "base": "",
+            "fields": [
+                {
+                    "name": "attendee",
+                    "type": "name"
+                },
+                {
+                    "name": "time",
+                    "type": "time_point_sec"
+                }
+            ]
+        },
+        {
+            "name": "signup",
+            "base": "",
+            "fields": [
+                {
+                    "name": "user",
+                    "type": "name"
+                }
+            ]
+        }
+    ],
+    "types": [],
+    "actions": [
+        {
+            "name": "clean",
+            "type": "clean",
+            "ricardian_contract": ""
+        },
+        {
+            "name": "signup",
+            "type": "signup",
+            "ricardian_contract": ""
+        }
+    ],
+    "tables": [
+        {
+            "name": "sign",
+            "type": "sign",
+            "index_type": "i64",
+            "key_names": [],
+            "key_types": []
+        }
+    ],
+    "ricardian_clauses": [],
+    "variants": [],
+    "abi_extensions": []
+}
